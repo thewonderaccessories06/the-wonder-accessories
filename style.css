@@ -268,3 +268,68 @@ footer{
     padding:15px;
     margin-top:30px;
 }
+/* Features Section */
+
+.features{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+    padding:50px 20px;
+}
+
+.feature-box{
+    background:white;
+    width:300px;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.feature-box:hover{
+    transform:translateY(-8px);
+}
+
+.feature-box h3{
+    color:#7a5a58;
+    margin-bottom:10px;
+}
+
+/* About Preview */
+
+.about-preview{
+    text-align:center;
+    padding:60px 20px;
+    background:white;
+}
+
+.about-preview p{
+    max-width:700px;
+    margin:auto;
+    color:#555;
+    font-size:18px;
+    margin-bottom:20px;
+}
+
+/* Reviews */
+
+.reviews{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.review-card{
+    background:white;
+    max-width:600px;
+    margin:20px auto;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
+}
+
+.review-card h4{
+    margin-top:10px;
+    color:#7a5a58;
+}
